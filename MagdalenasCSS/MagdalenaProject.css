@@ -1,0 +1,106 @@
+/* 
+    * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+    * http://cssreset.com
+ */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, 
+img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, 
+caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, 
+section, summary, time, mark, audio, video 
+
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+/* End of Reset */
+
+body {
+    background-color: #888888;
+}
+
+.top-navigation {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    background-color: #fff;
+}
+
+.top-navigation > .content {
+    width: 809px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 0 0.938rem;
+    margin: 0 auto;
+}
+
+.top-navigation .links {
+    float: right;
+    margin-top: 25px;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    color: #838994;
+    letter-spacing: 0.03em;
+    -webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.top-navigation .logo {
+    float: left;
+    height: 4.375rem;
+    padding-left: 2.75rem;
+}
+
+/* Introduction Section */
+
+ .introduction {
+    background-image: url('../img/TortillasFS.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 53rem;
+}
+
+ .middle {
+    background-image: url('../img/Tomatillos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 42rem;
+}
